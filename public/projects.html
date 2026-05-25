@@ -1,47 +1,31 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="reicj 项目页：建筑工程案例与执行结果。">
-    <title>项目 | reicj</title>
+    <meta name="description" content="reicj projects.">
+    <title>Projects | reicj</title>
     <link rel="stylesheet" href="./styles.css">
   </head>
-  <body>
+  <body data-page="projects">
     <header class="site-header">
-      <a class="brand" href="./index.html">reicj</a>
+      <a class="brand" id="site-name" href="./index.html">reicj</a>
       <nav class="nav">
-        <a href="./index.html">首页</a>
-        <a class="current" href="./projects.html">项目</a>
-        <a href="./insights.html">洞察</a>
-        <a href="./index.html#contact">联系</a>
+        <a href="./index.html">Home</a>
+        <a class="current" href="./projects.html">Projects</a>
+        <a href="./insights.html">Insights</a>
+        <a href="./index.html#contact">Contact</a>
       </nav>
     </header>
 
     <main class="sub-main">
       <section class="sub-hero">
         <p class="tag">Projects</p>
-        <h1>建筑工程案例</h1>
-        <p>以下为三个代表性方向：现场管理、工程资料、项目协同。</p>
+        <h1 id="projects-title">Architecture projects</h1>
+        <p id="projects-summary">Representative work in site management, documentation, and collaboration.</p>
       </section>
-
-      <section class="cards">
-        <article>
-          <h2>住宅综合体：现场管理闭环</h2>
-          <p>角色：施工统筹与问题追踪。</p>
-          <p>结果：关键节点执行稳定、反馈时效提升。</p>
-        </article>
-        <article>
-          <h2>商业改造：工程资料标准化</h2>
-          <p>角色：资料模板与签审流程设计。</p>
-          <p>结果：审阅效率提升、归档一致性增强。</p>
-        </article>
-        <article>
-          <h2>园区建设：项目协同机制</h2>
-          <p>角色：跨团队协同与里程碑复盘。</p>
-          <p>结果：责任链路清晰、重复沟通减少。</p>
-        </article>
-      </section>
+      <section class="cards" id="project-cards"></section>
     </main>
+    <script type="module" src="./render.js"></script>
   </body>
 </html>

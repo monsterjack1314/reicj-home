@@ -145,6 +145,60 @@ main {
   border-radius: 10px;
 }
 
+.insight-cards article {
+  padding: 0;
+}
+
+.insight-card a {
+  display: block;
+  padding: 18px;
+}
+
+.insight-card h2 {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+
+.insight-card p {
+  margin: 0;
+}
+
+.insight-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.detail-meta,
+.detail-content {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+  padding: 20px 24px;
+  margin-bottom: 14px;
+}
+
+.detail-meta p {
+  margin: 0 0 8px;
+  color: var(--muted);
+}
+
+.detail-meta p:last-child {
+  margin-bottom: 0;
+}
+
+.detail-content p {
+  margin: 0 0 12px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.detail-content p:last-child {
+  margin-bottom: 0;
+}
+
 .list {
   padding: 8px 18px;
 }

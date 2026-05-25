@@ -3,56 +3,40 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="reicj 的个人空间：建筑工程与 AI。">
-    <title>reicj 的个人空间</title>
+    <meta name="description" content="reicj personal space: architecture engineering and AI.">
+    <title>reicj personal space</title>
     <link rel="stylesheet" href="./styles.css">
     <script defer src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   </head>
-  <body>
+  <body data-page="home">
     <header class="site-header">
-      <a class="brand" href="./index.html">reicj</a>
+      <a class="brand" id="site-name" href="./index.html">reicj</a>
       <nav class="nav">
-        <a class="current" href="./index.html">首页</a>
-        <a href="./projects.html">项目</a>
-        <a href="./insights.html">洞察</a>
-        <a href="#contact">联系</a>
+        <a class="current" href="./index.html">Home</a>
+        <a href="./projects.html">Projects</a>
+        <a href="./insights.html">Insights</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main>
       <section class="hero">
-        <p class="tag">Architecture Engineering + AI</p>
-        <h1>建筑工程工作与 AI 兴趣的个人空间</h1>
-        <p>聚焦现场管理、工程资料、项目协同，并持续记录 Agent、知识库与自动化工作流实践。</p>
+        <p class="tag" id="home-tag">Architecture Engineering + AI</p>
+        <h1 id="home-title">Personal space for architecture engineering and AI</h1>
+        <p id="home-summary">Focus on site management, project documentation, collaboration, and AI workflow practice.</p>
         <p class="visitor-counter">
-          <span id="busuanzi_container_site_uv">
-            访客数：<strong id="busuanzi_value_site_uv">-</strong>
-          </span>
-          <span id="busuanzi_container_site_pv">
-            访问量：<strong id="busuanzi_value_site_pv">-</strong>
-          </span>
+          <span id="busuanzi_container_site_uv">Visitors: <strong id="busuanzi_value_site_uv">-</strong></span>
+          <span id="busuanzi_container_site_pv">Views: <strong id="busuanzi_value_site_pv">-</strong></span>
         </p>
       </section>
 
-      <section class="overview">
-        <article>
-          <h2>工作主线</h2>
-          <p>建筑工程执行、协同与复盘。</p>
-        </article>
-        <article>
-          <h2>兴趣主线</h2>
-          <p>AI 工具应用与方法沉淀。</p>
-        </article>
-        <article>
-          <h2>输出方向</h2>
-          <p>项目案例、洞察文章与周期记录。</p>
-        </article>
-      </section>
+      <section class="overview" id="home-overview"></section>
 
       <section class="contact" id="contact">
-        <h2>联系</h2>
-        <p>邮箱：qs57@reicj.xyz</p>
+        <h2>Contact</h2>
+        <p>Email: <span id="contact-email">qs57@reicj.xyz</span></p>
       </section>
     </main>
+    <script type="module" src="./render.js"></script>
   </body>
 </html>

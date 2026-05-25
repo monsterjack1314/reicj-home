@@ -1,0 +1,38 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Insight detail page.">
+    <title>Insight Detail | reicj</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body data-page="insight-detail">
+    <header class="site-header">
+      <a class="brand" id="site-name" href="./index.html">reicj</a>
+      <nav class="nav">
+        <a href="./index.html">Home</a>
+        <a href="./projects.html">Projects</a>
+        <a class="current" href="./insights.html">Insights</a>
+        <a href="./index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="sub-main">
+      <section class="sub-hero">
+        <p class="tag">Insight Detail</p>
+        <h1 id="insight-detail-title">Insight detail</h1>
+        <p id="insight-detail-summary"></p>
+      </section>
+      <section class="detail-meta">
+        <p>Project: <span id="insight-detail-project"></span></p>
+        <p>Date: <span id="insight-detail-date"></span></p>
+        <p>Status: <span id="insight-detail-status"></span></p>
+        <p>Tech: <span id="insight-detail-tech"></span></p>
+        <p>Source: <span id="insight-detail-source"></span></p>
+      </section>
+      <section class="detail-content" id="insight-detail-content"></section>
+    </main>
+    <script type="module" src="./render.js"></script>
+  </body>
+</html>

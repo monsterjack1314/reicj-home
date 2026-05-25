@@ -1,44 +1,31 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="reicj 洞察页：AI 与工程方法观察。">
-    <title>洞察 | reicj</title>
+    <meta name="description" content="reicj insights.">
+    <title>Insights | reicj</title>
     <link rel="stylesheet" href="./styles.css">
   </head>
-  <body>
+  <body data-page="insights">
     <header class="site-header">
-      <a class="brand" href="./index.html">reicj</a>
+      <a class="brand" id="site-name" href="./index.html">reicj</a>
       <nav class="nav">
-        <a href="./index.html">首页</a>
-        <a href="./projects.html">项目</a>
-        <a class="current" href="./insights.html">洞察</a>
-        <a href="./index.html#contact">联系</a>
+        <a href="./index.html">Home</a>
+        <a href="./projects.html">Projects</a>
+        <a class="current" href="./insights.html">Insights</a>
+        <a href="./index.html#contact">Contact</a>
       </nav>
     </header>
 
     <main class="sub-main">
       <section class="sub-hero">
         <p class="tag">Insights</p>
-        <h1>最新洞察</h1>
-        <p>先保留标题与日期，后续再补详细内容。</p>
+        <h1 id="insights-title">Project insights</h1>
+        <p id="insights-summary">Project snapshots collected from Codex sessions.</p>
       </section>
-
-      <section class="list">
-        <article>
-          <h2>AI Agent 如何参与工程资料审阅</h2>
-          <time datetime="2026-05-25">2026.05.25</time>
-        </article>
-        <article>
-          <h2>工程项目知识库的最小可行结构</h2>
-          <time datetime="2026-05-25">2026.05.25</time>
-        </article>
-        <article>
-          <h2>从现场问题到自动化工作流</h2>
-          <time datetime="2026-05-25">2026.05.25</time>
-        </article>
-      </section>
+      <section class="cards insight-cards" id="insight-list"></section>
     </main>
+    <script type="module" src="./render.js"></script>
   </body>
 </html>
