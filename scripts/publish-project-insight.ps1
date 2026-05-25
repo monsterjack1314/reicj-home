@@ -2,6 +2,7 @@ param(
   [string]$ProjectPath = (Get-Location).Path,
   [string]$Title,
   [string]$ProjectName,
+  [string]$Note,
   [switch]$SkipGit
 )
 
@@ -24,6 +25,7 @@ $argsList = @(
 
 if ($Title) { $argsList += @("-Title", $Title) }
 if ($ProjectName) { $argsList += @("-ProjectName", $ProjectName) }
+if ($Note) { $argsList += @("-Note", $Note) }
 if ($SkipGit) { $argsList += "-SkipGit" }
 
 & powershell @argsList
