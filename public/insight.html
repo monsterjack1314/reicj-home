@@ -1,43 +1,43 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Insight detail page.">
-    <title>Insight Detail | reicj</title>
+    <meta name="description" content="reicj 洞察详情页。">
+    <title>洞察详情 | reicj</title>
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body data-page="insight-detail">
     <header class="site-header">
       <a class="brand" id="site-name" href="./index.html">reicj</a>
       <nav class="nav">
-        <a href="./index.html">Home</a>
-        <a href="./projects.html">Projects</a>
-        <a class="current" href="./insights.html">Insights</a>
-        <a href="./index.html#contact">Contact</a>
+        <a href="./index.html">首页</a>
+        <a href="./projects.html">项目</a>
+        <a class="current" href="./insights.html">洞察</a>
+        <a href="./index.html#contact">联系</a>
       </nav>
     </header>
 
     <main class="sub-main">
       <section class="sub-hero">
-        <p class="tag">Insight Detail</p>
-        <h1 id="insight-detail-title">Insight detail</h1>
+        <p class="tag">详情</p>
+        <h1 id="insight-detail-title">洞察详情</h1>
         <p id="insight-detail-summary"></p>
       </section>
       <section class="detail-layout">
-        <aside class="timeline-panel" aria-label="Project timeline">
-          <p class="timeline-title">Timeline</p>
+        <aside class="timeline-panel" aria-label="项目时间线">
+          <p class="timeline-title">时间线</p>
           <input class="timeline-slider" id="insight-time-slider" type="range" min="0" max="0" value="0" step="1">
           <div class="timeline-list" id="insight-timeline"></div>
         </aside>
 
         <article class="detail-main">
           <section class="detail-meta">
-            <p>Project: <span id="insight-detail-project"></span></p>
-            <p>Date: <span id="insight-detail-date"></span></p>
-            <p>Status: <span id="insight-detail-status"></span></p>
-            <p>Tech: <span id="insight-detail-tech"></span></p>
-            <p>Source: <span id="insight-detail-source"></span></p>
+            <p>项目：<span id="insight-detail-project"></span></p>
+            <p>日期：<span id="insight-detail-date"></span></p>
+            <p>状态：<span id="insight-detail-status"></span></p>
+            <p>技术：<span id="insight-detail-tech"></span></p>
+            <p>来源：<span id="insight-detail-source"></span></p>
           </section>
           <section class="detail-content" id="insight-detail-content"></section>
         </article>

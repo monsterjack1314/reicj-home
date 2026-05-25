@@ -17,6 +17,71 @@ function techText(value) {
   return Array.isArray(value) ? value.join(" / ") : "";
 }
 
+function setupVisitorCounterFallback() {
+  const uvBox = document.getElementById("busuanzi_container_site_uv");
+  const pvBox = document.getElementById("busuanzi_container_site_pv");
+  const uvValue = document.getElementById("busuanzi_value_site_uv");
+  const pvValue = document.getElementById("busuanzi_value_site_pv");
+  if (!uvBox || !pvBox || !uvValue || !pvValue) return;
+
+  const localCount = () => {
+    const uvKey = "reicj_local_uv";
+    const pvKey = "reicj_local_pv";
+    const markKey = "reicj_local_uv_mark";
+    const marker = localStorage.getItem(markKey);
+
+    let pv = Number(localStorage.getItem(pvKey) || "0");
+    pv += 1;
+    localStorage.setItem(pvKey, String(pv));
+
+    let uv = Number(localStorage.getItem(uvKey) || "0");
+    if (!marker) {
+      uv += 1;
+      localStorage.setItem(uvKey, String(uv));
+      localStorage.setItem(markKey, `${Date.now()}-${Math.random().toString(36).slice(2)}`);
+    }
+
+    uvValue.textContent = String(uv || 1);
+    pvValue.textContent = String(pv);
+  };
+
+  const sources = [
+    "https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js",
+    "https://npm.elemecdn.com/busuanzi.pure.js"
+  ];
+
+  let loaded = false;
+  const timeout = window.setTimeout(() => {
+    if (!loaded) localCount();
+  }, 3000);
+
+  const loadScript = (index) => {
+    if (index >= sources.length) {
+      localCount();
+      return;
+    }
+
+    const script = document.createElement("script");
+    script.src = sources[index];
+    script.defer = true;
+    script.onload = () => {
+      loaded = true;
+      window.clearTimeout(timeout);
+      window.setTimeout(() => {
+        const uvRaw = Number(uvValue.textContent || "0");
+        const pvRaw = Number(pvValue.textContent || "0");
+        if (!Number.isFinite(uvRaw) || !Number.isFinite(pvRaw) || (uvRaw === 0 && pvRaw === 0)) {
+          localCount();
+        }
+      }, 300);
+    };
+    script.onerror = () => loadScript(index + 1);
+    document.head.appendChild(script);
+  };
+
+  loadScript(0);
+}
+
 function renderHome(data) {
   text("site-name", data.site.name);
   text("home-tag", data.site.tagline);
@@ -32,6 +97,8 @@ function renderHome(data) {
     article.innerHTML = `<h2>${item.title}</h2><p>${item.text}</p>`;
     overview.appendChild(article);
   });
+
+  setupVisitorCounterFallback();
 }
 
 function renderProjects(data) {
@@ -83,7 +150,7 @@ function snapshotFromCurrent(item) {
     content: item.content || [],
     status: item.status || "",
     techStack: item.techStack || [],
-    sourcePath: item.sourcePath || "",
+    sourcePath: item.sourcePath || ""
   };
 }
 
@@ -134,7 +201,7 @@ function renderTimeline(item, snapshots) {
   snapshots.forEach((snapshot, index) => {
     const button = document.createElement("button");
     button.type = "button";
-    button.innerHTML = `<span>${snapshot.dateText || snapshot.date}</span><small>${index === 0 ? "Current" : snapshot.status || "History"}</small>`;
+    button.innerHTML = `<span>${snapshot.dateText || snapshot.date}</span><small>${index === 0 ? "当前" : snapshot.status || "历史"}</small>`;
     button.addEventListener("click", () => selectSnapshot(index));
     list.appendChild(button);
   });

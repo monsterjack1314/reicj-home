@@ -1,128 +1,133 @@
 {
-    "site":  {
-                 "name":  "reicj",
-                 "tagline":  "Architecture Engineering + AI",
-                 "email":  "qs57@reicj.xyz"
-             },
-    "home":  {
-                 "title":  "Personal space for architecture engineering and AI",
-                 "summary":  "Focus on site management, project documentation, and AI workflow practice.",
-                 "overview":  [
-                                  {
-                                      "title":  "Work",
-                                      "text":  "Execution, coordination, and review for architecture projects."
-                                  },
-                                  {
-                                      "title":  "Interest",
-                                      "text":  "AI tools, agents, and knowledge workflows."
-                                  },
-                                  {
-                                      "title":  "Output",
-                                      "text":  "Project cases and insight notes."
-                                  }
-                              ]
-             },
-    "projects":  {
-                     "title":  "Architecture projects",
-                     "summary":  "Representative work in site management, documentation, and collaboration.",
-                     "items":  [
-                                   {
-                                       "title":  "Residential complex: site management loop",
-                                       "role":  "Role: construction coordination and issue tracking.",
-                                       "result":  "Result: stable milestone execution and faster feedback."
-                                   },
-                                   {
-                                       "title":  "Commercial retrofit: document standardization",
-                                       "role":  "Role: document templates and approval workflow.",
-                                       "result":  "Result: improved review efficiency and archive consistency."
-                                   },
-                                   {
-                                       "title":  "Industrial park: collaboration mechanism",
-                                       "role":  "Role: cross-team alignment and milestone retros.",
-                                       "result":  "Result: clearer ownership and less repetitive communication."
-                                   }
-                               ]
-                 },
-    "insights":  {
-                     "title":  "Project insights",
-                     "summary":  "Project snapshots collected from Codex sessions.",
-                     "items":  [
-                                   {
-                                       "id":  "reicj-home-20260525215510",
-                                       "title":  "reicj-home 项目简况",
-                                       "date":  "2026-05-25",
-                                       "dateText":  "2026.05.25",
-                                       "projectName":  "reicj-home",
-                                       "summary":  "个人主页静态站点，用于 Cloudflare Pages 自动部署。",
-                                       "content":  [
-                                                       "项目目标：个人主页静态站点，用于 Cloudflare Pages 自动部署。",
-                                                       "当前状态：已记录。该记录由 Codex 在项目开发环境中自动生成，用于沉淀项目背景、开发情况和后续复盘线索。",
-                                                       "技术栈：Cloudflare。",
-                                                       "Git 信息：分支 main，最近提交 35c3f8a chore: publish project insight for SkillMarket，远程仓库 https://github.com/monsterjack1314/reicj-home.git。",
-                                                       "补充说明：- 构建命令：留空 - 构建输出目录：`public` - 生产分支：`main`",
-                                                       "补充说明：- `public/index.html`：首页内容 - `public/styles.css`：页面样式 - `public/_headers`：响应头配置"
-                                                   ],
-                                       "sourcePath":  "C:\\Users\\qs57\\Documents\\Codex\\2026-05-24\\github-plugin-github-openai-curated-reicj\\reicj-home",
-                                       "techStack":  [
-                                                         "Cloudflare"
-                                                     ],
-                                       "status":  "已记录",
-                                       "history":  [
-                                                       {
-                                                           "title":  "reicj-home 项目简况",
-                                                           "date":  "2026-05-25",
-                                                           "dateText":  "2026.05.25",
-                                                           "summary":  "个人主页静态站点，用于 Cloudflare Pages 自动部署。",
-                                                           "content":  [
-                                                                           "项目目标：个人主页静态站点，用于 Cloudflare Pages 自动部署。",
-                                                                           "当前状态：已记录。该记录由 Codex 在项目开发环境中自动生成，用于沉淀项目背景、开发情况和后续复盘线索。",
-                                                                           "技术栈：Cloudflare。",
-                                                                           "Git 信息：分支 main，最近提交 fa69964 简化站点结构并增加首页访客计数器，远程仓库 https://github.com/monsterjack1314/reicj-home.git。",
-                                                                           "补充说明：- 构建命令：留空 - 构建输出目录：`public` - 生产分支：`main`",
-                                                                           "补充说明：- `public/index.html`：首页内容 - `public/styles.css`：页面样式 - `public/_headers`：响应头配置"
-                                                                       ],
-                                                           "sourcePath":  "C:\\Users\\qs57\\Documents\\Codex\\2026-05-24\\github-plugin-github-openai-curated-reicj\\reicj-home",
-                                                           "techStack":  [
-                                                                             "Cloudflare"
-                                                                         ],
-                                                           "status":  "已记录"
-                                                       }
-                                                   ]
-                                   },
-                                   {
-                                       "id":  "skillmarket-20260525220457",
-                                       "title":  "SkillMarket 项目简况",
-                                       "date":  "2026-05-25",
-                                       "dateText":  "2026.05.25",
-                                       "projectName":  "SkillMarket",
-                                       "summary":  "面向 Agent / IDE 的 Skill 商店平台：发现、预览、安装、购买、上传 Skill，以及定制任务市场、会员体系、Agent API 集成与排错助手。",
-                                       "content":  [
-                                                       "项目目标：面向 Agent / IDE 的 Skill 商店平台：发现、预览、安装、购买、上传 Skill，以及定制任务市场、会员体系、Agent API 集成与排错助手。",
-                                                       "当前状态：已记录。该记录由 Codex 在项目开发环境中自动生成，用于沉淀项目背景、开发情况和后续复盘线索。",
-                                                       "技术栈：Node.js。",
-                                                       "Git 信息：分支 main，最近提交 51cd04b Implement skill market MVP workflows，远程仓库 https://github.com/monsterjack1314/skillmarket.git。",
-                                                       "补充说明：服务：PostgreSQL `5432`、Redis `6379`、Meilisearch `7700`、MinIO `9000/9001`",
-                                                       "补充说明：**没有 Docker？** 可以二选一："
-                                                   ],
-                                       "sourcePath":  "D:\\shuju\\skillmarket",
-                                       "techStack":  [
-                                                         "Node.js"
-                                                     ],
-                                       "status":  "已记录"
-                                   },
-                                   {
-                                       "id":  "ai-agent-review-flow",
-                                       "title":  "AI agent for engineering document review",
-                                       "date":  "2026-05-25",
-                                       "dateText":  "2026.05.25",
-                                       "projectName":  "Document Review Assistant",
-                                       "summary":  "A semi-automated review workflow built around classification and compliance checks.",
-                                       "content":  [
-                                                       "The project reduces repetitive manual review work with checklist and prompt-based dual validation.",
-                                                       "Execution is split into structure integrity, compliance checks, and issue localization.",
-                                                       "The next step is to connect historical issue records for stronger review suggestions."
-                                                   ]
-                                   }
-                               ]
-                 }
+  "site": {
+    "name": "reicj",
+    "tagline": "建筑工程 × AI 实践",
+    "email": "qs57@reicj.xyz"
+  },
+  "home": {
+    "title": "建筑工程与 AI 的个人实践空间",
+    "summary": "聚焦现场管理、项目文档、协同机制与 AI 工作流落地。",
+    "overview": [
+      {
+        "title": "工作",
+        "text": "围绕建筑项目执行、现场协同与阶段复盘。"
+      },
+      {
+        "title": "关注",
+        "text": "持续探索 AI 工具、Agent 与知识流程。"
+      },
+      {
+        "title": "产出",
+        "text": "沉淀项目案例、方法模板与洞察记录。"
+      }
+    ]
+  },
+  "projects": {
+    "title": "建筑工程项目",
+    "summary": "覆盖现场管理、资料标准化与跨团队协同的代表性实践。",
+    "items": [
+      {
+        "title": "住宅综合体：现场管理闭环",
+        "role": "角色：施工协调与问题追踪。",
+        "result": "结果：关键节点执行更稳定，反馈节奏更快。"
+      },
+      {
+        "title": "商业改造：资料标准化",
+        "role": "角色：模板体系与审批流程优化。",
+        "result": "结果：审阅效率提升，归档一致性增强。"
+      },
+      {
+        "title": "产业园：协同机制优化",
+        "role": "角色：跨团队对齐与里程碑复盘。",
+        "result": "结果：责任边界更清晰，重复沟通显著减少。"
+      }
+    ]
+  },
+  "insights": {
+    "title": "项目洞察",
+    "summary": "来自 Codex 会话的项目快照与过程记录。",
+    "items": [
+      {
+        "id": "reicj-home-20260525215510",
+        "title": "reicj-home 项目简况",
+        "date": "2026-05-25",
+        "dateText": "2026.05.25",
+        "projectName": "reicj-home",
+        "summary": "个人主页静态站点，用于 Cloudflare Pages 自动部署。",
+        "content": [
+          "项目目标：构建建筑工程与 AI 主题的个人主页，并通过 Cloudflare Pages 稳定发布。",
+          "当前状态：已记录。该条目由 Codex 在项目环境中整理，用于沉淀背景、进展与复盘线索。",
+          "技术栈：Cloudflare。",
+          "Git 信息：分支 main，最近提交 35c3f8a（chore: publish project insight for SkillMarket），远程仓库 https://github.com/monsterjack1314/reicj-home.git。",
+          "部署说明：构建命令留空，构建输出目录 public，生产分支 main。",
+          "目录说明：public/index.html（首页内容）、public/styles.css（全站样式）、public/_headers（响应头配置）。"
+        ],
+        "sourcePath": "C:\\Users\\qs57\\Documents\\Codex\\2026-05-24\\github-plugin-github-openai-curated-reicj\\reicj-home",
+        "techStack": [
+          "Cloudflare"
+        ],
+        "status": "已记录",
+        "history": [
+          {
+            "title": "reicj-home 项目简况",
+            "date": "2026-05-25",
+            "dateText": "2026.05.25",
+            "summary": "个人主页静态站点，用于 Cloudflare Pages 自动部署。",
+            "content": [
+              "项目目标：构建建筑工程与 AI 主题的个人主页，并通过 Cloudflare Pages 稳定发布。",
+              "当前状态：已记录。该条目由 Codex 在项目环境中整理，用于沉淀背景、进展与复盘线索。",
+              "技术栈：Cloudflare。",
+              "Git 信息：分支 main，最近提交 fa69964（简化站点结构并增加首页访客计数器），远程仓库 https://github.com/monsterjack1314/reicj-home.git。",
+              "部署说明：构建命令留空，构建输出目录 public，生产分支 main。",
+              "目录说明：public/index.html（首页内容）、public/styles.css（全站样式）、public/_headers（响应头配置）。"
+            ],
+            "sourcePath": "C:\\Users\\qs57\\Documents\\Codex\\2026-05-24\\github-plugin-github-openai-curated-reicj\\reicj-home",
+            "techStack": [
+              "Cloudflare"
+            ],
+            "status": "已记录"
+          }
+        ]
+      },
+      {
+        "id": "skillmarket-20260525220457",
+        "title": "SkillMarket 项目简况",
+        "date": "2026-05-25",
+        "dateText": "2026.05.25",
+        "projectName": "SkillMarket",
+        "summary": "面向 Agent / IDE 的 Skill 商店平台，覆盖发现、预览、安装、购买与上架流程。",
+        "content": [
+          "项目目标：构建面向 Agent / IDE 的 Skill 商店，打通发现、安装、交易与任务协作场景。",
+          "当前状态：已记录。该条目用于沉淀产品边界、实现路径与后续演进计划。",
+          "技术栈：Node.js。",
+          "Git 信息：分支 main，最近提交 51cd04b（Implement skill market MVP workflows），远程仓库 https://github.com/monsterjack1314/skillmarket.git。",
+          "运行说明：依赖 PostgreSQL（5432）、Redis（6379）、Meilisearch（7700）与 MinIO（9000/9001）。",
+          "环境补充：在无 Docker 条件下，建议按服务逐项本地启动并配置健康检查。"
+        ],
+        "sourcePath": "D:\\shuju\\skillmarket",
+        "techStack": [
+          "Node.js"
+        ],
+        "status": "已记录"
+      },
+      {
+        "id": "ai-agent-review-flow",
+        "title": "工程资料审阅 AI Agent",
+        "date": "2026-05-25",
+        "dateText": "2026.05.25",
+        "projectName": "Document Review Assistant",
+        "summary": "围绕分类与合规核验构建的半自动资料审阅流程。",
+        "content": [
+          "通过清单规则与提示词双重校验，降低重复人工审阅负担。",
+          "执行链路分为结构完整性、合规核验与问题定位三段。",
+          "下一步计划接入历史问题库，提升异常建议的针对性。"
+        ],
+        "status": "进行中",
+        "techStack": [
+          "LLM",
+          "Workflow"
+        ]
+      }
+    ]
+  }
 }
