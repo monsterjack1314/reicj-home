@@ -3,21 +3,217 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="reicj.xyz 的个人主页">
-    <title>Hello World | reicj.xyz</title>
+    <meta
+      name="description"
+      content="reicj 的个人空间：建筑工程工作流、项目案例、AI 洞察与长期记录。"
+    >
+    <title>reicj 的个人空间 | reicj.xyz</title>
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <main class="page">
-      <section class="intro" aria-labelledby="title">
-        <p class="eyebrow">reicj.xyz</p>
-        <h1 id="title">Hello World</h1>
-        <p class="summary">这里是我的个人主页，用来放作品、笔记、项目和联系方式。</p>
-        <div class="actions" aria-label="常用链接">
-          <a href="mailto:qs57@reicj.xyz">联系我</a>
-          <a href="https://github.com/" rel="noreferrer">GitHub</a>
+    <header class="site-header" aria-label="站点导航">
+      <a class="brand" href="#top">
+        <strong>reicj</strong>
+        <span>工程 / AI</span>
+      </a>
+      <nav class="nav" aria-label="主要导航">
+        <a class="current" href="./index.html">首页</a>
+        <a href="#workflow">工作流</a>
+        <a href="./projects.html">项目</a>
+        <a href="./insights.html">洞察</a>
+        <a href="./notes.html">记录</a>
+        <a href="#contact">连接</a>
+      </nav>
+      <a class="header-action" href="mailto:qs57@reicj.xyz">联系</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="kicker">Architecture Engineering × AI</p>
+          <h1 id="hero-title">成为连接工程现场与智能工具的入口</h1>
+          <p class="hero-summary">
+            用 AI 与系统化思维，把建筑工程中的现场问题、资料沉淀、协同沟通和复盘经验，整理成更清晰、更可执行的工作方式。
+          </p>
+          <div class="hero-actions" aria-label="快速入口">
+            <a class="button primary" href="#workflow">进入我的工作流</a>
+            <a class="button secondary" href="./projects.html">查看项目</a>
+          </div>
+          <div class="social-row" aria-label="连接我">
+            <span>连接我</span>
+            <a href="mailto:qs57@reicj.xyz">Mail</a>
+            <a href="https://github.com/reicj" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+
+        <div class="orbit-visual" aria-hidden="true">
+          <div class="orbit-label label-knowledge">工程知识</div>
+          <div class="orbit-label label-ai">AI 工具</div>
+          <div class="orbit-label label-site">项目现场</div>
+          <div class="orbit-label label-output">实际影响</div>
+          <div class="planet">
+            <span></span>
+          </div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbit orbit-three"></div>
+          <div class="ring"></div>
         </div>
       </section>
+
+      <section class="capability-card" aria-label="能力入口">
+        <article>
+          <span class="icon cube"></span>
+          <h2>AI Agent 实践</h2>
+          <p>构建提示词、流程和自动化任务，让 AI 真正参与个人生产。</p>
+        </article>
+        <article>
+          <span class="icon tower"></span>
+          <h2>工程场景应用</h2>
+          <p>聚焦建筑工程资料、现场协同、项目复盘与问题闭环。</p>
+        </article>
+        <article>
+          <span class="icon stack"></span>
+          <h2>知识与内容中枢</h2>
+          <p>沉淀输入、方法和结论，让信息变成可复用的能力。</p>
+        </article>
+        <article>
+          <span class="icon person"></span>
+          <h2>个人工作系统</h2>
+          <p>设计适合自己的系统，把兴趣、工作和输出连接起来。</p>
+        </article>
+        <article>
+          <span class="icon globe"></span>
+          <h2>长期连接网络</h2>
+          <p>连接工程、智能工具、人才与资源，共同创造更大价值。</p>
+        </article>
+      </section>
+
+      <section class="hub-section" id="workflow" aria-labelledby="workflow-title">
+        <div class="hub-copy">
+          <p class="section-tag">我的系统中枢</p>
+          <h2 id="workflow-title">让输入、判断和输出形成闭环。</h2>
+          <p>
+            以建筑工程经验作为真实问题来源，以 AI 作为整理、生成和验证工具，形成一套持续迭代的个人工作流。
+          </p>
+          <a href="./insights.html">了解我的方法论</a>
+        </div>
+        <div class="flow-board" aria-label="工作流中枢">
+          <div class="flow-column input">
+            <span>输入 / Input</span>
+            <p>趋势与洞察</p>
+            <p>真实需求</p>
+            <p>工程资料</p>
+            <p>对话与反馈</p>
+          </div>
+          <div class="core">
+            <span>智能中枢</span>
+            <strong>AI</strong>
+          </div>
+          <div class="flow-column output">
+            <span>输出 / Output</span>
+            <p>产品 / 项目</p>
+            <p>内容 / 洞察</p>
+            <p>自动化流程</p>
+            <p>实践影响</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-grid" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <h2 id="projects-title">精选项目</h2>
+          <a href="./projects.html">查看更多</a>
+        </div>
+        <div class="project-list">
+          <article>
+            <div class="project-visual visual-one"></div>
+            <h3>AI 工程资料工作流</h3>
+            <p>一套面向工程资料整理、摘要、检查和复盘的方法与工具组合。</p>
+            <span>工程智能化</span>
+          </article>
+          <article>
+            <div class="project-visual visual-two"></div>
+            <h3>个人知识中枢系统</h3>
+            <p>连接阅读、项目记录和 AI 对话，建立可持续更新的知识库。</p>
+            <span>知识管理</span>
+          </article>
+          <article>
+            <div class="project-visual visual-three"></div>
+            <h3>工程协同复盘模板</h3>
+            <p>把项目节点、现场问题、决策依据和经验结论整理成复盘结构。</p>
+            <span>项目复盘</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="insight-section" id="insights" aria-labelledby="insights-title">
+        <div>
+          <p class="section-tag">最新洞察</p>
+          <h2 id="insights-title">把观察写成方法。</h2>
+        </div>
+        <div class="insight-list">
+          <article>
+            <h3>AI 时代的个人工程能力</h3>
+            <time datetime="2026-05-25">2026.05.25</time>
+          </article>
+          <article>
+            <h3>工程资料如何释放个人影响力</h3>
+            <time datetime="2026-05-25">2026.05.25</time>
+          </article>
+          <article>
+            <h3>从现场问题到自动化流程</h3>
+            <time datetime="2026-05-25">2026.05.25</time>
+          </article>
+        </div>
+      </section>
+
+      <section class="insight-section" id="notes" aria-labelledby="notes-title">
+        <div>
+          <p class="section-tag">长期记录</p>
+          <h2 id="notes-title">工程复盘与 AI 实验日志</h2>
+        </div>
+        <div class="insight-list">
+          <article>
+            <h3>工程周报结构：计划、偏差、动作</h3>
+            <time datetime="2026-05-25">2026.05.25</time>
+          </article>
+          <article>
+            <h3>资料审阅模板：输入标准与输出格式</h3>
+            <time datetime="2026-05-25">2026.05.25</time>
+          </article>
+          <article>
+            <h3>自动化实验：问题台账生成日报</h3>
+            <time datetime="2026-05-25">2026.05.25</time>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-panel" id="contact" aria-labelledby="contact-title">
+        <div>
+          <h2 id="contact-title">连接、协作、共创</h2>
+          <p>
+            如果你关注建筑工程、AI 工具、个人系统或工程效率，可以从一个具体问题开始交流。
+          </p>
+        </div>
+        <a class="button dark" href="mailto:qs57@reicj.xyz">开始连接</a>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#top">
+        <strong>reicj</strong>
+        <span>工程 / AI</span>
+      </a>
+      <nav aria-label="页脚导航">
+        <a href="./index.html">首页</a>
+        <a href="#workflow">工作流</a>
+        <a href="./projects.html">项目</a>
+        <a href="./insights.html">洞察</a>
+        <a href="./notes.html">记录</a>
+        <a href="#contact">连接</a>
+      </nav>
+      <p>© 2026 reicj. All rights reserved.</p>
+    </footer>
   </body>
 </html>
