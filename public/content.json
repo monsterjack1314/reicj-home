@@ -48,6 +48,27 @@
                      "summary":  "Project snapshots collected from Codex sessions.",
                      "items":  [
                                    {
+                                       "id":  "skillmarket-20260525220457",
+                                       "title":  "SkillMarket 项目简况",
+                                       "date":  "2026-05-25",
+                                       "dateText":  "2026.05.25",
+                                       "projectName":  "SkillMarket",
+                                       "summary":  "面向 Agent / IDE 的 Skill 商店平台：发现、预览、安装、购买、上传 Skill，以及定制任务市场、会员体系、Agent API 集成与排错助手。",
+                                       "content":  [
+                                                       "项目目标：面向 Agent / IDE 的 Skill 商店平台：发现、预览、安装、购买、上传 Skill，以及定制任务市场、会员体系、Agent API 集成与排错助手。",
+                                                       "当前状态：已记录。该记录由 Codex 在项目开发环境中自动生成，用于沉淀项目背景、开发情况和后续复盘线索。",
+                                                       "技术栈：Node.js。",
+                                                       "Git 信息：分支 main，最近提交 51cd04b Implement skill market MVP workflows，远程仓库 https://github.com/monsterjack1314/skillmarket.git。",
+                                                       "补充说明：服务：PostgreSQL `5432`、Redis `6379`、Meilisearch `7700`、MinIO `9000/9001`",
+                                                       "补充说明：**没有 Docker？** 可以二选一："
+                                                   ],
+                                       "sourcePath":  "D:\\shuju\\skillmarket",
+                                       "techStack":  [
+                                                         "Node.js"
+                                                     ],
+                                       "status":  "已记录"
+                                   },
+                                   {
                                        "id":  "reicj-home-20260525215510",
                                        "title":  "reicj-home 项目简况",
                                        "date":  "2026-05-25",
