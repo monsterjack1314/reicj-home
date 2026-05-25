@@ -24,14 +24,24 @@
         <h1 id="insight-detail-title">Insight detail</h1>
         <p id="insight-detail-summary"></p>
       </section>
-      <section class="detail-meta">
-        <p>Project: <span id="insight-detail-project"></span></p>
-        <p>Date: <span id="insight-detail-date"></span></p>
-        <p>Status: <span id="insight-detail-status"></span></p>
-        <p>Tech: <span id="insight-detail-tech"></span></p>
-        <p>Source: <span id="insight-detail-source"></span></p>
+      <section class="detail-layout">
+        <aside class="timeline-panel" aria-label="Project timeline">
+          <p class="timeline-title">Timeline</p>
+          <input class="timeline-slider" id="insight-time-slider" type="range" min="0" max="0" value="0" step="1">
+          <div class="timeline-list" id="insight-timeline"></div>
+        </aside>
+
+        <article class="detail-main">
+          <section class="detail-meta">
+            <p>Project: <span id="insight-detail-project"></span></p>
+            <p>Date: <span id="insight-detail-date"></span></p>
+            <p>Status: <span id="insight-detail-status"></span></p>
+            <p>Tech: <span id="insight-detail-tech"></span></p>
+            <p>Source: <span id="insight-detail-source"></span></p>
+          </section>
+          <section class="detail-content" id="insight-detail-content"></section>
+        </article>
       </section>
-      <section class="detail-content" id="insight-detail-content"></section>
     </main>
     <script type="module" src="./render.js"></script>
   </body>

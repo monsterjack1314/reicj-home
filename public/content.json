@@ -48,6 +48,48 @@
                      "summary":  "Project snapshots collected from Codex sessions.",
                      "items":  [
                                    {
+                                       "id":  "reicj-home-20260525215510",
+                                       "title":  "reicj-home 项目简况",
+                                       "date":  "2026-05-25",
+                                       "dateText":  "2026.05.25",
+                                       "projectName":  "reicj-home",
+                                       "summary":  "个人主页静态站点，用于 Cloudflare Pages 自动部署。",
+                                       "content":  [
+                                                       "项目目标：个人主页静态站点，用于 Cloudflare Pages 自动部署。",
+                                                       "当前状态：已记录。该记录由 Codex 在项目开发环境中自动生成，用于沉淀项目背景、开发情况和后续复盘线索。",
+                                                       "技术栈：Cloudflare。",
+                                                       "Git 信息：分支 main，最近提交 35c3f8a chore: publish project insight for SkillMarket，远程仓库 https://github.com/monsterjack1314/reicj-home.git。",
+                                                       "补充说明：- 构建命令：留空 - 构建输出目录：`public` - 生产分支：`main`",
+                                                       "补充说明：- `public/index.html`：首页内容 - `public/styles.css`：页面样式 - `public/_headers`：响应头配置"
+                                                   ],
+                                       "sourcePath":  "C:\\Users\\qs57\\Documents\\Codex\\2026-05-24\\github-plugin-github-openai-curated-reicj\\reicj-home",
+                                       "techStack":  [
+                                                         "Cloudflare"
+                                                     ],
+                                       "status":  "已记录",
+                                       "history":  [
+                                                       {
+                                                           "title":  "reicj-home 项目简况",
+                                                           "date":  "2026-05-25",
+                                                           "dateText":  "2026.05.25",
+                                                           "summary":  "个人主页静态站点，用于 Cloudflare Pages 自动部署。",
+                                                           "content":  [
+                                                                           "项目目标：个人主页静态站点，用于 Cloudflare Pages 自动部署。",
+                                                                           "当前状态：已记录。该记录由 Codex 在项目开发环境中自动生成，用于沉淀项目背景、开发情况和后续复盘线索。",
+                                                                           "技术栈：Cloudflare。",
+                                                                           "Git 信息：分支 main，最近提交 fa69964 简化站点结构并增加首页访客计数器，远程仓库 https://github.com/monsterjack1314/reicj-home.git。",
+                                                                           "补充说明：- 构建命令：留空 - 构建输出目录：`public` - 生产分支：`main`",
+                                                                           "补充说明：- `public/index.html`：首页内容 - `public/styles.css`：页面样式 - `public/_headers`：响应头配置"
+                                                                       ],
+                                                           "sourcePath":  "C:\\Users\\qs57\\Documents\\Codex\\2026-05-24\\github-plugin-github-openai-curated-reicj\\reicj-home",
+                                                           "techStack":  [
+                                                                             "Cloudflare"
+                                                                         ],
+                                                           "status":  "已记录"
+                                                       }
+                                                   ]
+                                   },
+                                   {
                                        "id":  "skillmarket-20260525220457",
                                        "title":  "SkillMarket 项目简况",
                                        "date":  "2026-05-25",
@@ -65,27 +107,6 @@
                                        "sourcePath":  "D:\\shuju\\skillmarket",
                                        "techStack":  [
                                                          "Node.js"
-                                                     ],
-                                       "status":  "已记录"
-                                   },
-                                   {
-                                       "id":  "reicj-home-20260525215510",
-                                       "title":  "reicj-home 项目简况",
-                                       "date":  "2026-05-25",
-                                       "dateText":  "2026.05.25",
-                                       "projectName":  "reicj-home",
-                                       "summary":  "个人主页静态站点，用于 Cloudflare Pages 自动部署。",
-                                       "content":  [
-                                                       "项目目标：个人主页静态站点，用于 Cloudflare Pages 自动部署。",
-                                                       "当前状态：已记录。该记录由 Codex 在项目开发环境中自动生成，用于沉淀项目背景、开发情况和后续复盘线索。",
-                                                       "技术栈：Cloudflare。",
-                                                       "Git 信息：分支 main，最近提交 fa69964 简化站点结构并增加首页访客计数器，远程仓库 https://github.com/monsterjack1314/reicj-home.git。",
-                                                       "补充说明：- 构建命令：留空 - 构建输出目录：`public` - 生产分支：`main`",
-                                                       "补充说明：- `public/index.html`：首页内容 - `public/styles.css`：页面样式 - `public/_headers`：响应头配置"
-                                                   ],
-                                       "sourcePath":  "C:\\Users\\qs57\\Documents\\Codex\\2026-05-24\\github-plugin-github-openai-curated-reicj\\reicj-home",
-                                       "techStack":  [
-                                                         "Cloudflare"
                                                      ],
                                        "status":  "已记录"
                                    },
